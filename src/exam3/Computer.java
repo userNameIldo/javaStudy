@@ -7,13 +7,15 @@ public class Computer {
 	String core;
 	int netSpeed;
 	
-	Computer(){
+
+	
+	Computer(){	//생성자 선언
 		
 	}
 	
 	Computer(String model){
 		
-		this(model, "인텔", 250);
+		this(model, "인텔", 250); //중복코드는 this로 처리 Computer(String model, String core, int netSpeed)불러오기
 		
 	}
 	

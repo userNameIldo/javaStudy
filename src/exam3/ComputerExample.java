@@ -5,10 +5,12 @@ public class ComputerExample {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Computer com1 = new Computer();
+		Computer com1 = new Computer();//생성자 호출
 		
 		System.out.println("com1.company : " + com1.company);
 		System.out.println();
+		
+		//생성자 오버로딩 매개변수의 타입, 개수가 다르게 선언
 		
 		Computer com2 = new Computer("노트북");
 		
