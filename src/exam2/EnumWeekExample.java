@@ -38,7 +38,7 @@ public class EnumWeekExample {
 			
 		}
 		
-		System.out.println("ø¿¥√ ø‰¿œ¿∫ : " + today);
+		System.out.println("Today week is : " + today);
 
 	}
 
