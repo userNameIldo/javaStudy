@@ -4,6 +4,7 @@ public class Button {
 
 	OnClickListener listener; //인터페이스 타입 필드
 	
+	//필드의 다형성
 	void setOnClickListener(OnClickListener listener) {//매개변수를 인터페이스 타입으로 선언
 		
 		this.listener = listener;
