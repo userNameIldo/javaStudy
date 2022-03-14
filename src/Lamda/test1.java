@@ -13,7 +13,11 @@ public class test1 {
 		Math manusCalc = (num1, num2) -> num1 - num2;
 		
 		System.out.println(manusCalc.Calc(7, 2));
-
+		
+		Math multiCalc = (num1, num2) -> num1 * num2;
+		
+		System.out.println(multiCalc.Calc(5, 2));
+		
 		IntFunction intSum = x -> x+1;
 		
 		System.out.println(intSum.apply(6));
